@@ -13,7 +13,10 @@ class NotesViewBody extends StatelessWidget {
     return Column(
       // ignore: prefer_const_literals_to_create_immutables
       children: [
-        const CustomAppbar(),
+        const CustomAppbar(
+          titel: 'Note',
+          icon: Icons.search,
+        ),
         const Expanded(child: NotesListView()),
       ],
     );
