@@ -17,7 +17,7 @@ class EditNoteViewBody extends StatelessWidget {
         Padding(
           padding: EdgeInsets.only(top: 16.0, left: 16, right: 16),
           child: CustomTextField(
-            hint: 'Titel',
+            hint: 'titel',
           ),
         ),
         Padding(
